@@ -1,0 +1,69 @@
+12px; font-style: normal; font-family:'Microsoft Yahei','微软雅黑','Simsun','宋体','Arial', sans-serif;}
+address,caption,dfn,th,var,cite,code,i,em,s,label,input,select,textarea{font-style:normal;font-weight:normal;font-family:inherit;}
+input[type="submit"],input[type="reset"],input[type="button"]{cursor:pointer;}
+select,input,textarea{font-family:inherit;margin:0;}
+li { list-style:none;}
+img { border:none; background:none;}
+a { text-decoration:none; color:#5c76d5;}
+a:hover { text-decoration:underline; color:#f50;}
+table { border-spacing:0; border-collapse:collapse;}
+.clear { clear: both;}
+.clearfix { *zoom: 1;} 
+.clearfix:before, .clearfix:after { display: table; line-height: 0; content: "";}
+.clearfix:after { clear: both;}
+
+body{
+  font-family: "Microsoft Yahei"
+}
+h1,h2,h3,h4,h5,h6{
+  padding: 0;margin: 0;
+}
+i{
+  font-style: normal;
+}
+.modal-shadow{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+}
+.modal-box{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 480px;
+  height: 280px;
+  z-index: 1000;
+  padding:10px;
+  margin-top:-150px;
+  margin-left:-250px;
+  border-radius: 4px;
+  background: #fff;
+}
+.modal-head{
+  height: 30px;
+}
+.modal-title{
+  float: left;
+  font-size: 16px;
+  font-weight: normal;
+}
+.modal-body{
+  min-height: 210px;
+}
+.modal-footer{
+  line-height: 40px;
+  text-align: right;
+}
+.modal-close{
+  display: inline-block;
+  float:right;
+  cursor: pointer;
+  padding: 3px 5px;
+}
+
